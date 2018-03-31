@@ -1,0 +1,119 @@
+@media (min-width: 800px) {
+  .donate-bg {
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .load-donate-modal .donate-bg {
+    opacity: 1;
+  }
+}
+
+.donate-modal {
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  color: #222;
+  display: none;
+}
+
+.load-donate-modal .donate-modal {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .donate-modal {
+    position: fixed;
+    z-index: 10001;
+    background: #fff;
+    max-width: 560px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-out 0.1s;
+    bottom: auto;
+    top: 50%;
+    opacity: 0;
+  }
+
+  .load-donate-modal .donate-modal {
+    transform: translate(-50%, 0%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+.donate-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  color: #2380b3;
+  background: #fff;
+  line-height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  transform: translate(-50%, 50%);
+
+}
+
+.donate-modal-close:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .donate-modal-close {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    top: 0;
+  right: 0;
+    transform: translate(50%, -50%);
+  }
+}
+
+.donate-modal img {
+  max-width: 100%;
+}
+
+.donate-modal-content {
+  padding: 5px 20px 20px 20px;
+  line-height: 1.5em;
+}
+
+@media (min-width: 800px) {
+  .donate-modal-content {
+    padding: 30px;
+    line-height: 1.6em;
+  }
+}
+
+.donate-modal-btn {
+  font-weight: bold;
+  color: #fff;
+  background: #2380b3;
+  padding: 0.7em 1.5em;
+  margin: 0 1em 0  0;
+  display: inline-block;
+}
+
+.donate-modal-btn:hover {
+  background: #136d9e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.donate-modal-link {
+  font-weight: bold;
+  color: #2380b3;
+  display: inline-block;
+}
+
+.donate-modal-link:hover {
+  color: #136d9e;
+}
