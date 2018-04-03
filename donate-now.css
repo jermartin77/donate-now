@@ -79,6 +79,7 @@
 
 .donate-modal img {
   max-width: 100%;
+  display: block;
 }
 
 .donate-modal-content {
