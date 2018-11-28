@@ -21,7 +21,7 @@ $(function() {
         '<div id="donate-bg" class="donate-bg"></div>' +
           '<div id="donate-modal" class="donate-modal">' +
           '<a href="#" id="donate-modal-close" class="donate-modal-close">&#215;</a>' +
-          '<img src="https://s6.postimg.org/x1jxsr24x/pop-up-bg-light.jpg">' +
+          '<img src="https://jermartin77.github.io/donate-now/images/pop-up-bg-light.jpg">' +
           '<div class="donate-modal-content">' +
           "<p>Do you know that we rely on public donations to provide advisories and community education? Please consider supporting avalanche safety in our valley.</p>" +
           '<a href="http://flatheadavalanche.org/donate" id="donate-modal-btn" class="donate-modal-btn">Donate Now!</a>' +
